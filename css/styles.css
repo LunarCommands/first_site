@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Aileron;
+  src: url(fonts/Ailerons-Typeface.otf);
+}
+@font-face {
+  font-family: Anurati;
+  src: url(fonts/Anurati-Regular.otf);
+}
+@font-face {
+  font-family: Kontakt;
+  src: url(fonts/Kontakt.ttf);
+}
+
+body {
+  background-color: #30475E;
+  font-family: Kontakt;
+  text-align: center;
+  color: #F05454;
+}
+
+h1 {
+  color: #F05454;
+  font-size: 5.625rem;
+  margin: 200px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: Kontakt;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 2;
+  font-family: Kontakt;
+}
+
+hr {
+  border: dotted #DDDDDD 12px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #DDDDDD;
+  font-family: Kontakt;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F05454;
+}
+
+.top-container {
+  color: #F05454;
+  display: flex;
+}
+
+.left-panel {
+  padding: 8% 10% 0 10%;
+  text-align: left;
+  width: 33%;
+  font-size: 28px;
+}
+
+.center-panel {
+  text-align: center;
+  width: 33%;
+  padding-left: 10%;
+  padding-right: 20%;
+  font-size: 28px;
+}
+
+.right-panel {
+  padding: 8% 10% 0 0;
+  text-align: right;
+  width: 33%;
+  font-size: 28px;
+}
+
+.under-header {
+  margin-top: 5%;
+  height: 10%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #00ADB5;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+img {
+  border-radius: 30px;
+  width: 25%;
+}
+
+.right {
+  float: left;
+  margin-right: 30px;
+}
+
+.left {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #DDDDDD;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #F05454;
+  background-image: -webkit-linear-gradient(top, #F05454, #30475E);
+  background-image: -moz-linear-gradient(top, #F05454, #30475E);
+  background-image: -ms-linear-gradient(top, #F05454, #30475E);
+  background-image: -o-linear-gradient(top, #F05454, #30475E);
+  background-image: linear-gradient(to bottom, #F05454, #30475E);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Kontakt;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff ;
+  size: 150%;
+  text-decoration: none;
+}
