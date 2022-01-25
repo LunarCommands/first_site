@@ -32,6 +32,11 @@ h2 {
   padding-bottom: 10px;
 }
 
+h3 {
+  font-family: Anurati;
+  color: #00ADB5;
+}
+
 p {
   line-height: 2;
   font-family: Kontakt;
