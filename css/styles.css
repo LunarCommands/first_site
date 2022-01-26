@@ -60,6 +60,15 @@ a:hover {
   color: #F05454;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 .top-container {
   color: #F05454;
   display: flex;
