@@ -11,11 +11,18 @@
   src: url(fonts/Kontakt.ttf);
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #30475E;
   font-family: Kontakt;
   text-align: center;
   color: #F05454;
+  line-height: 1.6;
 }
 
 h1 {
@@ -84,8 +91,6 @@ a:hover {
 .center-panel {
   text-align: center;
   width: 33%;
-  padding-left: 10%;
-  padding-right: 20%;
   font-size: 28px;
 }
 
@@ -111,9 +116,10 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 100px auto 100px auto;
   text-align: left;
+  padding: 75px;
 }
 
 .intro {
