@@ -11,7 +11,9 @@
   src: url(fonts/Kontakt.ttf);
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -23,6 +25,7 @@ body {
   text-align: center;
   color: #F05454;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 h1 {
@@ -65,6 +68,12 @@ a {
 
 a:hover {
   color: #F05454;
+}
+
+img {
+  border-radius: 30px;
+  width: 25%;
+  max-width: 100%;
 }
 
 .fade-in {
@@ -127,11 +136,6 @@ a:hover {
   margin: auto;
 }
 
-img {
-  border-radius: 30px;
-  width: 25%;
-}
-
 .right {
   float: left;
   margin-right: 30px;
@@ -174,4 +178,16 @@ img {
   background: #ffffff ;
   size: 150%;
   text-decoration: none;
+}
+
+/* remove aniamtions for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
