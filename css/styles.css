@@ -1,14 +1,17 @@
 @font-face {
-  font-family: Aileron;
-  src: url(fonts/Ailerons-Typeface.otf);
+  font-family: 'Anurati';
+  src: url('fonts/anurati-regular-webfont.woff2') format('woff2'),
+  url('fonts/anurati-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-  font-family: Anurati;
-  src: url(fonts/Anurati-Regular.otf);
-}
-@font-face {
-  font-family: Kontakt;
-  src: url(fonts/Kontakt.ttf);
+  font-family: 'Kontakt';
+  src: url('fonts/kontakt-webfont.woff2') format('woff2'),
+  url('fonts/kontakt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 *,
